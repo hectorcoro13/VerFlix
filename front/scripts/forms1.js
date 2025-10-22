@@ -71,7 +71,7 @@ const handleOnSubmit = async (e) => {
   console.log("form data", data);
 
   try {
-    await axios.post("http://localhost:3000/movies", data);
+    await axios.post("https://verflix-back.onrender.com/movies", data);
   } catch (error) {
     console.error(error);
   }
