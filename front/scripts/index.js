@@ -8,6 +8,8 @@ const getMovies = async () => {
   try {
     const res = await axios.get(URL_API + "movies");
 
+    console.log("Respuesta:", res);
+
     // Verifica si no hay películas
     if (!res.data?.length) {
       return utils.appendFailMsg("No hay películas para mostrar");
