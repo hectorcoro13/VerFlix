@@ -1,0 +1,55 @@
+/* reset.css */
+
+/* Elimina los márgenes, rellenos y bordes predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Hereda fuentes y colores a partir del elemento raíz */
+html, body {
+    height: 100%;
+    font-family: sans-serif;
+    color: #000;
+}
+
+/* Establece el ancho máximo de los elementos */
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Asegura que los formularios y botones no hereden estilos */
+button, input, textarea, select {
+    font: inherit;
+    color: inherit;
+}
+
+/* Elimina las decoraciones en enlaces */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Restablece listas */
+ul, ol {
+    list-style: none;
+}
+
+/* Restablece tablas */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Restablece el estilo de los botones y los campos de formulario */
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    resize: vertical;
+}
