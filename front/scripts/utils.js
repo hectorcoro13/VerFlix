@@ -35,7 +35,7 @@ function AppendMoviesToContainer(dataFromApi){
     getElementById ("movieContainer");
 
     carouselInner.innerHTML =
-    '<p id = "texto1" >No se pudieron cargar las películas. Inténtalo más tarde. </p>';
+    '<p id = "texto5" >No se pudieron cargar las películas. Inténtalo más tarde. </p>';
     return;
   }
 
